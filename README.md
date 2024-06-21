@@ -1,4 +1,4 @@
-#**W**ind Field **E**stimation using thermal **IR** **D**ata
+# **W**ind Field **E**stimation using thermal **I**nfra**r**ed **D**ata
 
 - Data from IR-camera must be available as 3D array stored as variable 'irdata' in an .NetCDF4-file. Dimensions:
   - 1: height of image
