@@ -1,0 +1,21 @@
+##ARGUMENTS FOR WEIRD-processing script. Preprocessing script must be executed before.
+#path to source folder:
+/home/haugened/data/
+
+#symmetric windowsize [pxl] (default: 10); parsed as Int
+10
+
+#maxshift vector [pxl] (row-up, row-down, col-left, col-right); parsed as Int
+-10
+10
+-5
+40
+
+#n (nr. of initial pxl-differences for Kaga-step 1); parsed as Int
+10
+
+#alpha (threshold for Kaga-step 2); parsed as Float
+0.3
+
+#NaNthreshold (if percentage of NaNs in target window exceeds, then do not consider this interrogation window); parsed as Float
+0.2

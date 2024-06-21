@@ -1,0 +1,30 @@
+#ARGUMENTS FOR WEIRD-preprocessing script. Input data must already be cut!
+
+#path to source file:
+/home/haugened/Documents/data/ir/210531_133111/cut_irdata_03_to_05.nc
+
+#frames per second in sequence [1/s] (default: 29.9); parsed as Float
+29.9
+
+#parameter for Gauss-filtering (row-width; col-width), (default: 1;2); parsed as Int
+1
+2
+
+#averaging time for backlooking moving-avg. [s] (spectral high-pass), (default: 10); parsed as Int
+10
+
+#cut-off frequency for spectral low-pass [Hz] (default: 2); parsed as Float
+2
+
+#path to output folder (to be created or overwritten)
+/home/haugened/Documents/data/ir/210531_133111/preprocessed/
+
+##parameters for task splitting (not used yet)
+#first frame to look at
+1
+
+#last frame to look at (last: -1)
+-1
+
+#nr. of tasks
+1000

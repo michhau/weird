@@ -1,0 +1,10 @@
+##ARGUMENTS FOR STICHING SINGLE OUTPUT FILES TOGETHER
+#files are assumed to be named $prefix$nrstartframe[to]$nrendframe[.nc], for example 'wind_irdata_per3_fr351to352.nc'
+#directory where single files are
+/home/haugened/Documents/data/ir/210531_133111/preprocessed/raw/
+
+#file prefix
+wind_irdata_03_to_05_preproc_fr
+
+#deflate level for NetCDF4 file (1-9, default:5); parsed as Int
+6
